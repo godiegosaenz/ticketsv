@@ -11,22 +11,22 @@ class UsersTableSeeder extends Seeder
             [
                 'id'             => 1,
                 'name'           => 'Admin',
-                'email'          => 'admin@admin.com',
-                'password'       => '$2y$10$UnLIBQB1uZZC1r5msFWTPuZCZsMBUpZINpJ48G5FmMxz6yVGP83rO',
+                'email'          => 'tecnologia.informacion@sanvicente.gob.ec',
+                'password'       => '$2y$10$XshEAX9BwQmxaphGhDEjwuAtqTTcrDh3k/bLiAlfS3pvIDUn2X4tG',
                 'remember_token' => null,
             ],
             [
                 'id'             => 2,
                 'name'           => 'Agent 1',
-                'email'          => 'agent1@agent1.com',
-                'password'       => '$2y$10$UnLIBQB1uZZC1r5msFWTPuZCZsMBUpZINpJ48G5FmMxz6yVGP83rO',
+                'email'          => 'avaluos.catastro@sanvicente.gob.ec',
+                'password'       => '$2y$10$XshEAX9BwQmxaphGhDEjwuAtqTTcrDh3k/bLiAlfS3pvIDUn2X4tG',
                 'remember_token' => null,
             ],
             [
                 'id'             => 3,
                 'name'           => 'Agent 2',
-                'email'          => 'agent2@agent2.com',
-                'password'       => '$2y$10$UnLIBQB1uZZC1r5msFWTPuZCZsMBUpZINpJ48G5FmMxz6yVGP83rO',
+                'email'          => 'transito@sanvicente.gob.ec',
+                'password'       => '$2y$10$XshEAX9BwQmxaphGhDEjwuAtqTTcrDh3k/bLiAlfS3pvIDUn2X4tG',
                 'remember_token' => null,
             ],
             [

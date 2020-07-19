@@ -3943,6 +3943,7 @@ return array(
     'Spatie\\PdfToImage\\Pdf' => $vendorDir . '/spatie/pdf-to-image/src/Pdf.php',
     'Spatie\\TemporaryDirectory\\TemporaryDirectory' => $vendorDir . '/spatie/temporary-directory/src/TemporaryDirectory.php',
     'StatusesTableSeeder' => $baseDir . '/database/seeds/StatusesTableSeeder.php',
+    'SubCategoriesSeeder' => $baseDir . '/database/seeds/SubCategoriesSeeder.php',
     'Symfony\\Bridge\\PsrHttpMessage\\Factory\\DiactorosFactory' => $vendorDir . '/symfony/psr-http-message-bridge/Factory/DiactorosFactory.php',
     'Symfony\\Bridge\\PsrHttpMessage\\Factory\\HttpFoundationFactory' => $vendorDir . '/symfony/psr-http-message-bridge/Factory/HttpFoundationFactory.php',
     'Symfony\\Bridge\\PsrHttpMessage\\Factory\\PsrHttpFactory' => $vendorDir . '/symfony/psr-http-message-bridge/Factory/PsrHttpFactory.php',

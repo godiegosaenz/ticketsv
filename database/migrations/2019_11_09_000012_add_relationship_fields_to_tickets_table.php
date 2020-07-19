@@ -24,6 +24,10 @@ class AddRelationshipFieldsToTicketsTable extends Migration
             $table->unsignedInteger('assigned_to_user_id')->nullable();
 
             $table->foreign('assigned_to_user_id', 'assigned_to_user_fk_583768')->references('id')->on('users');
+
+            $table->unsignedInteger('subcategories_id');
+            
+            $table->foreign('subcategories_id')->references('id')->on('sub_categories');
         });
     }
 }

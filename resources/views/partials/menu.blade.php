@@ -104,6 +104,16 @@
                     </a>
                 </li>
             @endcan
+            @can('ticket_access')
+                <li class="nav-item">
+                    <a href="{{ route("admin.tickets.index") }}" class="nav-link {{ request()->is('admin/tickets') || request()->is('admin/tickets/*') ? 'active' : '' }}">
+                        <i class="fa-fw fas fa-question-circle nav-icon">
+
+                        </i>
+                        {{ trans('cruds.schedule.title') }}
+                    </a>
+                </li>
+            @endcan
             @can('comment_access')
                 <li class="nav-item">
                     <a href="{{ route("admin.comments.index") }}" class="nav-link {{ request()->is('admin/comments') || request()->is('admin/comments/*') ? 'active' : '' }}">

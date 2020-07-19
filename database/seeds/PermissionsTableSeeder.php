@@ -184,6 +184,26 @@ class PermissionsTableSeeder extends Seeder
                 'id'    => '44',
                 'title' => 'dashboard_access',
             ],
+            [
+                'id'    => '45',
+                'title' => 'schedule_access',
+            ],
+            [
+                'id'    => '46',
+                'title' => 'schedule_create',
+            ],
+            [
+                'id'    => '47',
+                'title' => 'schedule_edit',
+            ],
+            [
+                'id'    => '48',
+                'title' => 'schedule_show',
+            ],
+            [
+                'id'    => '49',
+                'title' => 'schedule_delete',
+            ],
         ];
 
         Permission::insert($permissions);
