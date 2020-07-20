@@ -14,13 +14,14 @@ class CreateScheduleUserTable extends Migration
     public function up()
     {
         Schema::create('schedule_user', function (Blueprint $table) {
-            $table->bigIncrements('id');
+            $table->Increments('id');
             $table->date('date_schedule');
             $table->time('hour_start', 0);
             $table->time('hour_end', 0);
             $table->char('status', 100);
             $table->string('observation', 100);
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 

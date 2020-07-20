@@ -11,6 +11,11 @@ class SubCategoriesSeeder extends Seeder
      */
     public function run()
     {
-        //
+        Schema::create('sub_categories', function (Blueprint $table) {
+            $table->bigIncrements('id');
+            $table->string('name');
+            $table->string('description');
+            $table->timestamps();
+        });
     }
 }
