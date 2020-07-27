@@ -52,7 +52,7 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'namespace' => 'Admin', 'mi
     Route::resource('tickets', 'TicketsController');
 
     //schedule
-    Route::resource('tickets', 'TicketsController');
+    Route::resource('schedules', 'SchedulesController');
 
     // Comments
     Route::delete('comments/destroy', 'CommentsController@massDestroy')->name('comments.massDestroy');

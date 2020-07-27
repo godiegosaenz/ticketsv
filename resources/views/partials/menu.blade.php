@@ -106,7 +106,7 @@
             @endcan
             @can('schedule_access')
                 <li class="nav-item">
-                    <a href="{{ route("admin.tickets.index") }}" class="nav-link {{ request()->is('admin/tickets') || request()->is('admin/tickets/*') ? 'active' : '' }}">
+                    <a href="{{ route("admin.schedules.index") }}" class="nav-link {{ request()->is('admin/schedules') || request()->is('admin/schedules/*') ? 'active' : '' }}">
                         <i class="fa-fw fas fa-question-circle nav-icon">
 
                         </i>
